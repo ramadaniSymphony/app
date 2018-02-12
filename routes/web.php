@@ -11,6 +11,10 @@
 |
 */
 
+/*
+ * Set up the main view of the application
+ */
+
 $app->get('/', function () use ($app) {
 	return view('index');
 });

@@ -26,7 +26,6 @@ class LogsController extends Controller {
 	 * Save the data from the request to the database table (logs)
 	 */
 	public function save(Request $request) {
-		//exit('123');
 		$payload = json_decode($request->getContent(), true);
 		$result = DB::insert('insert into logs (fractional_uk, decimal_eu, moneyline_usa) values (?, ?, ?)', [$payload['fractional_uk'], $payload['decimal_eu'], $payload['moneyline_usa']]);
 		return ($result) ? ["result" => true] : ["result" => false];
