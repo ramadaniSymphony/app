@@ -1,0 +1,56 @@
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+
+
+# Frontend
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+
+# dependencies
+/resources/angular/node_modules
+
+# IDEs and editors
+/.idea
+/resources/angular/.idea
+.project
+/resources/angular/.classpath
+.classpath
+/resources/angular/.c9/
+.c9/
+/resources/angular/*.launch
+*.launch
+.settings/
+/resources/angular/.settings/
+*.sublime-workspace
+/resources/angular/*sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/resources/angular/.sass-cache
+/resources/angular/connect.lock
+/resources/angular//coverage
+/resources/angular/libpeerconnection.log
+/resources/angular/npm-debug.log
+/resources/angular/testem.log
+/resources/angular/typings
+
+# e2e
+/resources/angular/e2e/*.js
+/resources/angular/e2e/*.map
+
+# System Files
+/resources/angular/Thumbs.db
